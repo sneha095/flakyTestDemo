@@ -37,7 +37,7 @@ namespace FlakyTestDemo.Test
         [Test]
         public void NotFlakyTest()
         {
-            Assert.That(2, Is.EqualTo(3));
+            Assert.That(2, Is.EqualTo(2));
         }
     }
 }
