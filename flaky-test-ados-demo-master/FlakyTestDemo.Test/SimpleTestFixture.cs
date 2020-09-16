@@ -17,19 +17,19 @@ namespace FlakyTestDemo.Test
         }
 
         [Test]
-        public void NotFlakyTest()
+        public void NotFlakyTest0()
         {
             Assert.That(0, Is.EqualTo(0));
         }
         
         [Test]
-        public void NotFlakyTest()
+        public void NotFlakyTest1()
         {
             Assert.That(1, Is.EqualTo(1));
         }
         
         [Test]
-        public void NotFlakyTest()
+        public void NotFlakyTest2()
         {
             Assert.That(2, Is.EqualTo(2));
         }
