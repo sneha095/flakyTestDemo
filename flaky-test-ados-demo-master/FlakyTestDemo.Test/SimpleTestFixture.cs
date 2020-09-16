@@ -21,5 +21,23 @@ namespace FlakyTestDemo.Test
         {
             Assert.That(0, Is.EqualTo(0));
         }
+        
+        [Test]
+        public void NotFlakyTest()
+        {
+            Assert.That(1, Is.EqualTo(1));
+        }
+        
+        [Test]
+        public void NotFlakyTest()
+        {
+            Assert.That(2, Is.EqualTo(2));
+        }
+        
+        [Test]
+        public void NotFlakyTest()
+        {
+            Assert.That(2, Is.EqualTo(3));
+        }
     }
 }
